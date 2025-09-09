@@ -22,6 +22,11 @@ class MainWindow(QMainWindow):
         self.ui = loader.load(ui_file, self)
         ui_file.close()
 
+        # size n pos, x, y, w, h
+        self.setGeometry(300, 170, 550, 600)
+
+        self.setWindowTitle("1073139323 - TicTacToe")
+
         self.setCentralWidget(self.ui.centralwidget)
 
         # access the gridLayout from the loaded ui
