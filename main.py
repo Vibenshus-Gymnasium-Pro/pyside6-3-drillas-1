@@ -28,7 +28,8 @@ class MainWindow(QMainWindow):
         # set window title
         self.setWindowTitle("1073139323 - TicTacToe")
 
-        # self.setWindowIcon(QIcon("icon.png"))
+        # set window icon (currently unused)
+        self.setWindowIcon(QIcon("img-2025-09-09-12-26-47.png"))
 
         self.setCentralWidget(self.ui.centralwidget)
 
