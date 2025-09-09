@@ -1,3 +1,12 @@
+from __future__ import annotations
+
+from PySide6.QtCore import Qt, QPoint, QRect, QSize, Property, Slot
+from PySide6.QtGui import QPainter, QPen
+from PySide6.QtWidgets import QWidget
+
+TOM = '-'
+KRYDS = 'X'
+
 import sys
 from PySide6.QtWidgets import QApplication, QMainWindow, QPushButton
 from PySide6.QtUiTools import QUiLoader
