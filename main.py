@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from PySide6.QtCore import Qt, QPoint, QRect, QSize, Property, Slot
-from PySide6.QtGui import QPainter, QPen
+from PySide6.QtGui import QPainter, QPen, QIcon
 from PySide6.QtWidgets import QWidget
 
 TOM = '-'
@@ -27,6 +27,8 @@ class MainWindow(QMainWindow):
 
         # set window title
         self.setWindowTitle("1073139323 - TicTacToe")
+
+        # self.setWindowIcon(QIcon("icon.png"))
 
         self.setCentralWidget(self.ui.centralwidget)
 
