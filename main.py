@@ -25,6 +25,7 @@ class MainWindow(QMainWindow):
         # size n pos, x, y, w, h
         self.setGeometry(300, 170, 550, 600)
 
+        # window title
         self.setWindowTitle("1073139323 - TicTacToe")
 
         self.setCentralWidget(self.ui.centralwidget)
