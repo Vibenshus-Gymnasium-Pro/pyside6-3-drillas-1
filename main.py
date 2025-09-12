@@ -9,7 +9,9 @@ KRYDS = 'X'
 
 import sys
 from PySide6.QtWidgets import QApplication, QMainWindow, QPushButton
-from PySide6.QtUiTools import QUiLoader
+from PySide6.QtUiTools import
+from PySide6.QtGui import QPainter, QPen
+from PySide6.QtCore import Qt, QRect
 from PySide6.QtCore import QFile
 
 class MainWindow(QMainWindow):
