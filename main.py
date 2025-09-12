@@ -6,6 +6,7 @@ from PySide6.QtWidgets import QWidget
 
 TOM = '-'
 KRYDS = 'X'
+BOLLE = 'O'
 
 import sys
 from PySide6.QtWidgets import QApplication, QMainWindow, QPushButton
@@ -13,6 +14,7 @@ from PySide6.QtUiTools import
 from PySide6.QtGui import QPainter, QPen
 from PySide6.QtCore import Qt, QRect
 from PySide6.QtCore import QFile
+
 
 class MainWindow(QMainWindow):
     def __init__(self):
